@@ -1,3 +1,4 @@
+import "missing-module-docstring"
 def main():
     print("Hello, world!")
 
