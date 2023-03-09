@@ -1,8 +1,12 @@
-"""
-This module provides functions for calculating the area and perimeter of a rectangle.
-"""
-def main():
-    print("Hello, world!")
+def calculate_area(length, width):
+    """
+    Calculate the area of a rectangle.
 
-if __name__ == "__main__":
-    main()
+    Args:
+        length (float): The length of the rectangle.
+        width (float): The width of the rectangle.
+
+    Returns:
+        float: The area of the rectangle.
+    """
+    return length * width
